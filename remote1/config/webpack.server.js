@@ -11,6 +11,6 @@ module.exports = merge(sharedWebpackConfig, {
   },
   target: false,
   name: "server",
-  externals: { react: "react" },
+  // externals: { react: "react" },
   plugins: [...moduleFederationPlugin.server],
 });
